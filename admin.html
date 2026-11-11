@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lead Dashboard | EK Designs</title>
+<meta name="description" content="Leads captured by the EK Designs website and AI assistant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/brand.css">
+</head><body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="index.html"><b>EK DESIGNS</b><span>Stone Fabrication</span></a>
+    <nav class="links" id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="process.html">Process</a>
+      <a href="quote.html">Free Quote</a>
+      <a href="admin.html" style="color:#B08A4F">Client Dashboard</a>
+    </nav>
+    <div class="hnav">
+      <a class="hphone" href="tel:+14805254623">(480) 525-4623</a>
+      <a class="btn btn--gold btn--sm" href="quote.html">Get My Free Quote</a>
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section style="padding-bottom:26px"><div class="wrap">
+  <div class="eyebrow">Client dashboard</div>
+  <h1 style="font-size:44px">Leads from the site.</h1>
+  <p class="muted" style="max-width:600px;margin-top:12px">Everything the website and the AI assistant capture lands here, with what they asked for and where it came from. This is the piece that stops inquiries from dying in an inbox.</p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="kpis">
+    <div class="kpi"><b id="kTotal">0</b><span>Total leads</span></div>
+    <div class="kpi"><b id="kMeasure">0</b><span>Measures booked</span></div>
+    <div class="kpi"><b id="kQuote">0</b><span>Quotes sent</span></div>
+    <div class="kpi"><b id="kRate">0%</b><span>Moving forward</span></div>
+  </div>
+  <table>
+    <thead><tr><th>Name</th><th>Project</th><th>Timeline</th><th>Source</th><th>Status</th><th>Date</th></tr></thead>
+    <tbody id="leadRows"></tbody>
+  </table>
+  <p class="muted" style="font-size:12.5px;margin-top:14px">Demo data stored in this browser. On the live build this connects to the CRM, texts the lead automatically, and adds the follow-up to the team's daily queue.</p>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="logo" href="index.html" style="margin-bottom:14px"><b style="color:#F7F0E3">EK DESIGNS</b><span style="color:#D8B579">Stone Fabrication</span></a>
+        <p>Custom quartz, granite, marble and porcelain countertops — measured, fabricated and installed by one team across the Phoenix valley.</p>
+        <p style="margin-top:12px">ROC #23306614 · Licensed, bonded and insured</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="services.html">Kitchen countertops</a></p>
+        <p><a href="services.html">Bathroom vanities</a></p>
+        <p><a href="services.html">Fireplaces and walls</a></p>
+        <p><a href="services.html">Outdoor kitchens</a></p>
+        <p><a href="services.html">Commercial and builder</a></p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <p><a href="gallery.html">Project gallery</a></p>
+        <p><a href="process.html">Our process</a></p>
+        <p><a href="quote.html">Free quote</a></p>
+        <p><a href="admin.html">Client dashboard</a></p>
+      </div>
+      <div>
+        <h4>Visit or call</h4>
+        <p>5800 S 67th Ave<br>Laveen, AZ 85339</p>
+        <p style="margin-top:10px"><a href="tel:+14805254623">(480) 525-4623</a></p>
+        <p><a href="mailto:Office@ekdesignsc.net">Office@ekdesignsc.net</a></p>
+        <p style="margin-top:10px">Mon to Fri 8am to 5pm<br>Saturday by appointment</p>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 EK Designs Stone Fabrication. All rights reserved.</span>
+      <span>Website design and automation by LNL Solutions</span>
+    </div>
+  </div>
+</footer>
+
+<button id="ekFab" aria-label="Chat with EK Designs">💬</button>
+<div id="ekChat">
+  <div class="ekh">
+    <div class="av">EK</div>
+    <div><b>EK Designs Assistant</b><span>Replies in under a minute</span></div>
+    <button aria-label="Close">×</button>
+  </div>
+  <div class="ekb"></div>
+  <div class="ekf"><input placeholder="Type your message..."><button aria-label="Send">↑</button></div>
+  <div class="eknote">Instant answers · Free in-home measure</div>
+</div>
+<script src="assets/js/site.js"></script>
+</body></html>
